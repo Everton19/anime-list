@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+  height: 100%;
+}
+
+section {
+  color: white;
+  background-image: linear-gradient(90deg,
+      #9572fc 0%,
+      #43e7ad 50.52%,
+      #e2d45c 100%);
+  padding-top: 4px;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2634;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-weight: bold;
+}
