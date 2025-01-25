@@ -1,0 +1,15 @@
+<div class="card">
+  <h1 class="text-white mb-4 text-center">Favorite Openings</h1>
+  <ul class="row">
+    @for (item of favoriteOpenings; track $index) {
+    <li class="col-md-4 px-md-2 my-2">
+      <a [href]="item?.link_opening" target="_blank">
+        <img class="rounded-3 w-100 h-auto" [src]="item?.img_opening" alt="" />
+      </a>
+      <div class="color-opening rounded-3">
+        <p class="text-center text-dark mt-2 mb-sm-3 mb-md-0">{{item?.name}}</p>
+      </div>
+    </li>
+    }
+  </ul>
+</div>

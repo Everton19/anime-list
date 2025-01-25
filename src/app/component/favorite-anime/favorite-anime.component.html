@@ -1,0 +1,15 @@
+<div class="card">
+  <h1 class="text-white mb-4 text-center">Favorite Animes</h1>
+  <ul class="row">
+    @for (item of favoriteAnimeList; track $index) {
+    <li class="col-md-4 my-2 px-md-2">
+      <a [href]="item?.link_anime" target="_blank">
+        <img class="rounded-3 w-100 h-auto" [src]="item.img_anime" alt="" />
+      </a>
+      <div class="color-anime rounded-3">
+        <p class="text-dark text-center my-2">{{item?.name}}</p>
+      </div>
+    </li>
+    }
+  </ul>
+</div>
