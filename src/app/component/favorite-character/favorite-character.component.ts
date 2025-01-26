@@ -24,6 +24,18 @@ export class FavoriteCharacterComponent {
       {
         img_character: 'https://cdn.myanimelist.net/images/characters/2/323904.jpg',
         name: 'Kurapika',
+      },
+      {
+        img_character: 'https://cdn.myanimelist.net/images/characters/9/72533.jpg',
+        name: 'Edward Elric',
+      },
+      {
+        img_character: 'https://cdn.myanimelist.net/images/characters/15/409416.jpg',
+        name: 'Meruem',
+      },
+      {
+        img_character: 'https://cdn.myanimelist.net/images/characters/9/30966.jpg',
+        name: 'Gon Freecss',
       }
     ];
   }

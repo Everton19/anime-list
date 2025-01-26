@@ -2,7 +2,7 @@
   <h1 class="text-white mb-4 text-center">Favorite Characters</h1>
   <ul class="row">
     @for (item of favoriteCharacterList; track $index) {
-    <li class="col-md-4 px-md-2 my-2">
+    <li class="col-md-2 px-md-2 my-2">
       <img [src]="item.img_character" class="rounded-3 w-100 h-auto">
       <div class="color-character rounded-3">
         <p class="text-dark text-center mt-2 mb-sm-3 mb-md-0">{{item.name}}</p>
