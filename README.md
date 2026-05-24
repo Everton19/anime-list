@@ -1,27 +1,40 @@
 # AnimeList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+## Visao geral
 
-## Development server
+- Catalogo pessoal de animes e itens favoritos
+- Secoes separadas para anime, personagem e opening
+- Tela de perfil com informacoes do usuario
+- Componentes organizados por funcionalidade
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias
 
-## Code scaffolding
+- Angular 17
+- TypeScript
+- SCSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como rodar localmente
 
-## Build
+1. Instale as dependencias:
+	- `npm install`
+2. Inicie o servidor de desenvolvimento:
+	- `npm start`
+3. Abra no navegador:
+	- `http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Scripts principais
 
-## Running unit tests
+- `npm start` - inicia o servidor de desenvolvimento
+- `npm test` - executa os testes unitarios
+- `ng build` - gera o build de producao em `dist/`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Estrutura de pastas (resumo)
 
-## Running end-to-end tests
+- `src/app/component/favorite-anime`
+- `src/app/component/favorite-character`
+- `src/app/component/favorite-opening`
+- `src/app/component/perfil`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Observacoes
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto foi criado como base para estudos com Angular e pode ser expandido com rotas, servicos e persistencia de dados.
